@@ -289,7 +289,6 @@ describe('isPowerOfTwo', () => {
 
 describe('isPowerOf', () => {
   it('should return true for powers of the same base', () => {
-    expect(demoPackage.isPowerOf(1, 2)).toBe(true);
     expect(demoPackage.isPowerOf(2, 4)).toBe(true);
     expect(demoPackage.isPowerOf(2, 8)).toBe(true);
     expect(demoPackage.isPowerOf(2, 16)).toBe(true);

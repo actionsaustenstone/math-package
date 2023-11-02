@@ -1,16 +1,17 @@
-// build a complex math library that can be used in other projects
-// ensure the methods are not simply repeats of the nodejs math library
-
-exports.factorial = function(a) {
+const factorial = function(a) {
   if (a === 0) {
     return 1;
   } else {
     return a * factorial(a - 1);
   }
 }
+exports.factorial = factorial
 
 exports.fibonacci = function(a) {
-  let result = [0, 1];
+  let result = [0];
+  if (a > 0) {
+    result.push(1);
+  }
   for (let i = 2; i <= a; i++) {
     result.push(result[i - 1] + result[i - 2]);
   }
