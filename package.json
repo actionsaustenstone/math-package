@@ -1,5 +1,5 @@
 {
-  "name": "demo-package",
+  "name": "math-package",
   "version": "3.0.0",
   "description": "",
   "main": "index.js",
@@ -10,18 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actionsaustenstone/demo-package.git"
+    "url": "git+https://github.com/actionsaustenstone/math-package.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/actionsaustenstone/demo-package/issues"
+    "url": "https://github.com/actionsaustenstone/math-package/issues"
   },
-  "homepage": "https://github.com/actionsaustenstone/demo-package#readme",
+  "homepage": "https://github.com/actionsaustenstone/math-package#readme",
   "devDependencies": {
     "eslint": "^8.52.0",
     "jest": "^29.7.0",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@tomochain-name-service/solsha1": "^0.0.5"
   }
 }
