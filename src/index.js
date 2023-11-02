@@ -1,3 +1,18 @@
+const {
+  atan2, chain, derivative, e, evaluate, log, pi, pow, round, sqrt
+} = require('mathjs');
+
+exports.atan2 = atan2;
+exports.chain = chain;
+exports.derivative = derivative;
+exports.e = e;
+exports.evaluate = evaluate;
+exports.log = log;
+exports.pi = pi;
+exports.pow = pow;
+exports.round = round;
+exports.sqrt = sqrt;
+
 const factorial = function(a) {
   if (a === 0) {
     return 1;
